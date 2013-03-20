@@ -1,0 +1,6 @@
+CIS 192 (Spring 2013) – Python Final Project Proposal
+Team Members (1):  Nick Howarth
+Objective:  To create a rotatable, animated 3D projected wireframe model of a human hand.  
+Packages:  Pygame, math (or NumPy)  
+Description:  The goal is to render an animated 3D “stick-figure” hand model using the Pygame library.  
+To create a still-frame of the hand, the program will read in a set of data points which correspond to the 3D Cartesian coordinates of ~16 joints in the hand and wrist.  These points will be projected onto 2D and plotted using Pygame, and connecting lines and planes will be drawn to render the shape of the hand.  The program will also accept input from the keyboard to rotate the hand model about 2 or 3 axes.  To animate the hand model, an array of the coordinate sets will be read in, and the screen will be redrawn at set time intervals with the successive sets of points in the array.  
