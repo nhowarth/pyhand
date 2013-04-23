@@ -1,3 +1,4 @@
-pygame
+pygame, nose
 
 To install on Linux:  sudo apt-get install python-pygame
+                      sudo pip install nose

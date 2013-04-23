@@ -3,7 +3,7 @@ CIS 192 - Python Programming - Final Project
 Nick Howarth <nhowarth@seas.upenn.edu>
 
 Requirements:  
-python, pygame
+pygame, nose
 
 How it works:
 A still-frame of the hand model is referred to as a "frame." Each frame is
